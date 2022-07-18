@@ -1,6 +1,6 @@
 {
   "request_id": "220718115349_43f60445-86b2-5bbd-b3ce-ecb8ad4a20fd",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -55,5 +55,8 @@
     "storage_file": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/a3f9a2d1-909c-46b7-827b-15577bae055d",
     "partial": false
   },
-  "_signature": "2x5YRAu1vMpGoixWkaYeu0XkvPaDpyOWtI+ecSjdghr0BhBgml5z/1glEVt/sCDSF5s5DQcx2l07TAcsUU2FDA=="
+  "failed_at": "2022-07-18T11:54:48.069695+00:00",
+  "error_code": 400,
+  "error_message": "400 Error while reading data, error message: Error detected while parsing row starting at position: 6649. Error: Missing close double quote (\") character.",
+  "_signature": "UlDNmDJKQHVG2HeGoe53We5KKWy/S4R8G0lqMWBx83HAfcdmd3O5r6KnlkyDf/j6EZ/jCbdOgATnJC02sBJACw=="
 }
