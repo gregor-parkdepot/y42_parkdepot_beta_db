@@ -1,6 +1,6 @@
 {
   "request_id": "220718115341_0b227d3d-6ab0-5c29-a1f6-50df69e08108",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -53,7 +53,66 @@
     "write_disposition": "TRUNCATE",
     "external_id": "4d3cd9b9-8ded-4018-bd8a-93bf14127cc2",
     "storage_file": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/42d9f534-b8af-4df9-b6ae-72454639fcbb",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-18T11:55:14.338881+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1438652,
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220718115341_0b227d3d-6ab0-5c29-a1f6-50df69e08108",
+    "external_url": "https://console.cloud.google.com/bigquery?p=parkdepot-prod&d=y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295&t=220718115341_0b227d3d-6ab0-5c29-a1f6-50df69e08108&page=table"
   },
-  "_signature": "IuwLSBZjMW2aMGIEB142lLfeywzrJbOxWaPqqWAC0nLZI4zu6r/i7EwCKSIHuHDVHZ0dph5kCt9TAyQDWfW+BA=="
+  "finished_at": "2022-07-18T11:55:14.339341+00:00",
+  "_signature": "AHBAb67w56MX69UKGg5nkj3aLtVD04HfpAOTvpo4RXRGup3UxLFE3mcOyXOm0r+xjJEeTYfGpPSTluZ7SVlWBQ=="
 }
