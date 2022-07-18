@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/o?uploadType=resumable&upload_id=ADPycdvMqqhVqXUzf_kcvg3qe5lgvszA87J3iLXnm2F686Pv7gNEcvrnAxidFjAmljNdhFUQt1itL8On70qnyEn25bGnRQ",
+  "originalName": "google_ads_mock_data.csv",
+  "size": "7574198",
+  "uri": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/b6908424-0910-4274-8224-9b7562bed673",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
