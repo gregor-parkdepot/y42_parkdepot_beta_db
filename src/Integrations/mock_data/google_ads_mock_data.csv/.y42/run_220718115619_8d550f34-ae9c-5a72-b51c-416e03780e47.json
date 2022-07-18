@@ -47,5 +47,13 @@
     }
   },
   "created_at": "2022-07-18T11:56:19.995541+00:00",
-  "_signature": "fQbaSmHZEzivbfYhcqxHEehUOyCC6qV0hdonjFTWr6Y89UgwsRAIz5E/NPerWxC7boSe2TjxMtDIl3mkDLqsDQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-18T11:56:32.284109+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "93564f20-b8b2-48d5-9787-ca593458aae2",
+    "storage_file": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/b6908424-0910-4274-8224-9b7562bed673",
+    "partial": false
+  },
+  "_signature": "69ngn7ZZus3fXkncLSnP8JFiDYVf5KytJLZvFNsiqLf4RZr34P9RPMF7q0iXADvtHJkYtDVSAMFTa0fgCplgBA=="
 }
