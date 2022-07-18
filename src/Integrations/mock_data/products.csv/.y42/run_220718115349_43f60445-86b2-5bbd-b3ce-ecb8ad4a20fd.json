@@ -1,0 +1,51 @@
+{
+  "request_id": "220718115349_43f60445-86b2-5bbd-b3ce-ecb8ad4a20fd",
+  "status": "pending",
+  "request": {
+    "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/o?uploadType=resumable&upload_id=ADPycdvwr5HnQVYvIOgjmyt_123jhpPtq270O1x5aq3vK8PX2l5D1m2VgfqA0n1uEr7fA-jGc01J_ikw0uCbg0mBL8E61g",
+      "originalName": "products.csv",
+      "size": "37500",
+      "uri": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/a3f9a2d1-909c-46b7-827b-15577bae055d",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-07-18T11:53:49.304859+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/mock_data/products.csv",
+        "id": "44:d6f2abb4-794b-43c9-a7a2-3225e0e32199",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "gregor-parkdepot",
+        "repo": "y42_parkdepot_beta_db",
+        "commit_sha": "1d0bd68556b8656ae168aa94ad2b17f53f6fa8b4"
+      }
+    },
+    "context": {
+      "company_id": 44,
+      "company_slug": "parkdepot",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-18T11:53:49.304859+00:00",
+  "_signature": "PWx+0tiME8xj+HAaiYnh56leto8HsoU4aCCzDUU/XuJ5nMqG5Xt95SG6fP0qnyEf0qMFlWbJvWYYUoa1wBe5Bg=="
+}
