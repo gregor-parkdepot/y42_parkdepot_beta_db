@@ -1,6 +1,6 @@
 {
   "request_id": "220718115704_b63ffb0c-e432-58c2-ba09-38c61975d0b4",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -53,7 +53,76 @@
     "write_disposition": "TRUNCATE",
     "external_id": "acbd2ae9-2f53-4235-842b-1dd83a3a617d",
     "storage_file": "gs://y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295/userUploads/v2/44/file-upload/b6908424-0910-4274-8224-9b7562bed673",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-18T11:57:53.865269+00:00",
+    "row_count": 74936,
+    "current_import_row_count": 74936,
+    "size_in_bytes": 10205499,
+    "columns": [
+      {
+        "field_name": "day",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "adid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroup",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adtype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "engagements",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "interactions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "views",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220718115704_b63ffb0c-e432-58c2-ba09-38c61975d0b4",
+    "external_url": "https://console.cloud.google.com/bigquery?p=parkdepot-prod&d=y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295&t=220718115704_b63ffb0c-e432-58c2-ba09-38c61975d0b4&page=table"
   },
-  "_signature": "IXF1rGLBm1xKJzL9wO1cSsZ3J+F2vRBPBwy2HirupJXlqF1p+Qe+gvRQO6dBCX9tnccdksGwl9ZzvWnH9KUrAg=="
+  "finished_at": "2022-07-18T11:57:53.865418+00:00",
+  "_signature": "0mxUAfSazdf1vAt30UD4xcotnRtugzU+RGek7Rd1uJa5itTJz1NwhQU1rBSqUjVIWPLc28/PNnnY39PbLK/bCA=="
 }
