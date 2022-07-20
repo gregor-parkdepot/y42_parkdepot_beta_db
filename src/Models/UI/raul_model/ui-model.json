@@ -1,5 +1,214 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "149514fd-4c3e-49e9-9cf6-4472e1dd1ddc",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "149514fd-4c3e-49e9-9cf6-4472e1dd1ddc",
+        "title": "src/Integrations/mock_data/google_ads_mock_data.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "mock_data",
+        "transformObject": {
+          "source": "src/Integrations/mock_data",
+          "table": "src/Integrations/mock_data/google_ads_mock_data.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-441 -211.6320754716981"
+    },
+    {
+      "key": "aa1fce81-8308-478c-ae99-812c0c1ca519",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "aa1fce81-8308-478c-ae99-812c0c1ca519",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "expense",
+            "source": "cost",
+            "type": "INTEGER",
+            "display": true,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-232.8512396694215 -209.5188679245283"
+    },
+    {
+      "key": "fa3c329f-5037-4fd2-ac44-3ee24e7ce02b",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "fa3c329f-5037-4fd2-ac44-3ee24e7ce02b",
+        "title": "raul_model",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "raul_model",
+          "fields": [
+            {
+              "target": "expense",
+              "source": "expense",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "day",
+              "source": "day",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adid",
+              "source": "adid",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "account",
+              "source": "account",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adgroup",
+              "source": "adgroup",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adtype",
+              "source": "adtype",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign",
+              "source": "campaign",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clicks",
+              "source": "clicks",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "engagements",
+              "source": "engagements",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impressions",
+              "source": "impressions",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "interactions",
+              "source": "interactions",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "views",
+              "source": "views",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-16 -217.99056603773585"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "aa1fce81-8308-478c-ae99-812c0c1ca519",
+      "from": "149514fd-4c3e-49e9-9cf6-4472e1dd1ddc",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "fa3c329f-5037-4fd2-ac44-3ee24e7ce02b",
+      "from": "aa1fce81-8308-478c-ae99-812c0c1ca519",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
