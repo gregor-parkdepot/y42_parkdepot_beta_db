@@ -38,6 +38,17 @@
             "source_alias": "",
             "applied": true,
             "sourceTypeChanged": false
+          },
+          {
+            "target": "cost",
+            "source": "spend",
+            "type": "FLOAT",
+            "display": true,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
           }
         ]
       },
