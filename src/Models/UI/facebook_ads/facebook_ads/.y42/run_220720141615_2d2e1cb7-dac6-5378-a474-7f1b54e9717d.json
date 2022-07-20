@@ -1,6 +1,6 @@
 {
   "request_id": "220720141615_2d2e1cb7-dac6-5378-a474-7f1b54e9717d",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -34,5 +34,68 @@
     }
   },
   "created_at": "2022-07-20T14:16:15.298471+00:00",
-  "_signature": "G3hYrVelmnPwQNbMA4RE7rLE4QoYbmo3AUgOrvBi9PEd1RVn8Lq+qBNLzONVbTk/J4iHdi6aP2TjacLLEMwDBg=="
+  "finished_at": "2022-07-20T14:16:39.430888+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-20T14:16:39.430750+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1438652,
+    "external_id": "3f131717-42c4-4eff-984b-fb7edad1631d",
+    "columns": [
+      {
+        "field_name": "cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220720141615_2d2e1cb7-dac6-5378-a474-7f1b54e9717d",
+    "external_url": "https://console.cloud.google.com/bigquery?p=parkdepot-prod&d=y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295&t=220720141615_2d2e1cb7-dac6-5378-a474-7f1b54e9717d&page=table"
+  },
+  "_signature": "n5ey1S63F8NzP7WAQxww+d8Z3zFtTVBV8zKyEAJ4D9/iIWNcV3bUjY6rCDtV6KqBXPfhxVUHtV7VMCScfkNGCA=="
 }
