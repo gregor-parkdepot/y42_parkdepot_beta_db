@@ -1,6 +1,6 @@
 {
   "request_id": "220720141555_e37de6b6-df5e-55e5-bbf0-7e7baa2f3abe",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -34,5 +34,78 @@
     }
   },
   "created_at": "2022-07-20T14:15:55.385135+00:00",
-  "_signature": "nOFZI+wUlcB1S/U7Z/NQmATDp71cl4gX9ih0a70dEp1VSCSbOdS1MPQGwhXJEbWp1qGS7zZP2iacAGhYm/Y2Ag=="
+  "finished_at": "2022-07-20T14:16:37.593342+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-20T14:16:37.593169+00:00",
+    "row_count": 74936,
+    "current_import_row_count": 74936,
+    "size_in_bytes": 10205499,
+    "external_id": "c6566e96-3c6d-44c4-8aca-bd9bf192535f",
+    "columns": [
+      {
+        "field_name": "expense",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "day",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "adid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroup",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adtype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "engagements",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "interactions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "views",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220720141555_e37de6b6-df5e-55e5-bbf0-7e7baa2f3abe",
+    "external_url": "https://console.cloud.google.com/bigquery?p=parkdepot-prod&d=y42_parkdepotbeta_dd16988a7f244fa5a78ffa792ae98295&t=220720141555_e37de6b6-df5e-55e5-bbf0-7e7baa2f3abe&page=table"
+  },
+  "_signature": "e/mypagxDIZsGJ68Sa6G0SxhJPoKlRopRi51raNPzKq0yYeG75hb4cCeiUR+DKSC2DUVMa+gudee8Y/CXJjEBw=="
 }
