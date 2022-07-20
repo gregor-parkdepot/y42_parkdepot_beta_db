@@ -1,0 +1,38 @@
+{
+  "request_id": "220720141555_e37de6b6-df5e-55e5-bbf0-7e7baa2f3abe",
+  "status": "pending",
+  "request": {
+    "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "fa3c329f-5037-4fd2-ac44-3ee24e7ce02b"
+    },
+    "created_at": "2022-07-20T14:15:55.385135+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/raul_model/raul_model",
+        "id": "44:d6f2abb4-794b-43c9-a7a2-3225e0e32199",
+        "branch": "raul_branch"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "gregor-parkdepot",
+        "repo": "y42_parkdepot_beta_db",
+        "commit_sha": "33144315219a18729562bc0d449e6e67854f1bad"
+      }
+    },
+    "context": {
+      "company_id": 44,
+      "company_slug": "parkdepot",
+      "triggered_by_type": "user",
+      "triggered_by_id": "31",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T14:15:55.385135+00:00",
+  "_signature": "nOFZI+wUlcB1S/U7Z/NQmATDp71cl4gX9ih0a70dEp1VSCSbOdS1MPQGwhXJEbWp1qGS7zZP2iacAGhYm/Y2Ag=="
+}
