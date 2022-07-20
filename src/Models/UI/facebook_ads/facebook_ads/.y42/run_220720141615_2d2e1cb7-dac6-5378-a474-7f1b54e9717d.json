@@ -1,0 +1,38 @@
+{
+  "request_id": "220720141615_2d2e1cb7-dac6-5378-a474-7f1b54e9717d",
+  "status": "pending",
+  "request": {
+    "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "25a371f5-9af3-4428-8ffc-5cb4f38961a6"
+    },
+    "created_at": "2022-07-20T14:16:15.298471+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/facebook_ads/facebook_ads",
+        "id": "44:d6f2abb4-794b-43c9-a7a2-3225e0e32199",
+        "branch": "testing_env"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "gregor-parkdepot",
+        "repo": "y42_parkdepot_beta_db",
+        "commit_sha": "8c15900533dfd17a553156ae39b8a1af9439c565"
+      }
+    },
+    "context": {
+      "company_id": 44,
+      "company_slug": "parkdepot",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T14:16:15.298471+00:00",
+  "_signature": "G3hYrVelmnPwQNbMA4RE7rLE4QoYbmo3AUgOrvBi9PEd1RVn8Lq+qBNLzONVbTk/J4iHdi6aP2TjacLLEMwDBg=="
+}
