@@ -1,5 +1,365 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "ce409949-8c9d-48b2-9ab2-6c1350daac43",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "ce409949-8c9d-48b2-9ab2-6c1350daac43",
+        "title": "src/Integrations/mock_data/fb_ads_mock_data.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "mock_data",
+        "transformObject": {
+          "source": "src/Integrations/mock_data",
+          "table": "src/Integrations/mock_data/fb_ads_mock_data.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-736.2470143398456 -227.6235057152316"
+    },
+    {
+      "key": "e99a78ad-9a41-4fa0-a088-b20aed5a2c0a",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "e99a78ad-9a41-4fa0-a088-b20aed5a2c0a",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "ctr",
+            "source": "ctr",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-489.1852859447838 -228.06154356842666"
+    },
+    {
+      "key": "bded40a0-e547-4c9b-aeb4-349f9cdd6b09",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "bded40a0-e547-4c9b-aeb4-349f9cdd6b09",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "ctr",
+            "originalString": "@impressions/ @spend",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "operator": "/",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "@impressions",
+                      "range": [
+                        0,
+                        12
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 12
+                        }
+                      }
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "name": "@spend",
+                      "range": [
+                        14,
+                        20
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 14
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 20
+                        }
+                      }
+                    },
+                    "range": [
+                      0,
+                      20
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 20
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    20
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 20
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                20
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 20
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "@impressions",
+                  "range": [
+                    0,
+                    12
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 12
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "/",
+                  "range": [
+                    12,
+                    13
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 12
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 13
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "value": "@spend",
+                  "range": [
+                    14,
+                    20
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 20
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-234.82726125342583 -228.06154356842666"
+    },
+    {
+      "key": "c6e783b9-b6d9-4ffe-bd4e-23488d2bfc54",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "c6e783b9-b6d9-4ffe-bd4e-23488d2bfc54",
+        "title": "demo",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "demo",
+          "fields": [
+            {
+              "target": "account_id",
+              "source": "account_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_start",
+              "source": "date_start",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ad_id",
+              "source": "ad_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adset_name",
+              "source": "adset_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign_name",
+              "source": "campaign_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clicks",
+              "source": "clicks",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impressions",
+              "source": "impressions",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "reach",
+              "source": "reach",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "spend",
+              "source": "spend",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ctr",
+              "source": "ctr",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "27.086318993487566 -229.1558831910682"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "e99a78ad-9a41-4fa0-a088-b20aed5a2c0a",
+      "from": "ce409949-8c9d-48b2-9ab2-6c1350daac43",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "bded40a0-e547-4c9b-aeb4-349f9cdd6b09",
+      "from": "e99a78ad-9a41-4fa0-a088-b20aed5a2c0a",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "c6e783b9-b6d9-4ffe-bd4e-23488d2bfc54",
+      "from": "bded40a0-e547-4c9b-aeb4-349f9cdd6b09",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
