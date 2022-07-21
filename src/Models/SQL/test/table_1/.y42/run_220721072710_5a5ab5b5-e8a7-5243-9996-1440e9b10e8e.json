@@ -1,6 +1,6 @@
 {
   "request_id": "220721072710_5a5ab5b5-e8a7-5243-9996-1440e9b10e8e",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "3cabca53-3fbe-4d23-80cd-1aefa7e7f322",
     "source_settings": {
@@ -36,5 +36,8 @@
     }
   },
   "created_at": "2022-07-21T07:27:10.220974+00:00",
-  "_signature": "ZuWiDzkB+4zt2nCYtySH1sB9wv7pYSlyW5py43vNHnpvlDq6a9A4vwGgBXvwKFdU3BlYC9KkjLbs2YFudFzYDg=="
+  "failed_at": "2022-07-21T07:27:44.910379+00:00",
+  "error_code": 400,
+  "error_message": "400 Syntax error: Unexpected \"{\" at [3:1]\n\nLocation: US\nJob ID: 4de3a966-96c1-48a4-9f6b-70ccf6d00379\n",
+  "_signature": "L7//npC1TotDTe7lT2Pt5LhNNGPXYJX/EPpGHzvQUQe/SjncnYpTOaRGmN/g9ANrYzWbvuMV3UZ5/ZDqpqGyCg=="
 }
